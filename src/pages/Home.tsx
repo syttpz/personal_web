@@ -32,7 +32,7 @@ export default function Home() {
             GitHub — <a className="text-blue-400 hover:underline" href="https://github.com/syttpz">github.com/syttpz</a>
           </p>
           <p className="text-slate-300">
-            LinkedIn — <a className="text-blue-400 hover:underline" href="https://www.linkedin.com/in/bh2730/">linkedin.com/in/bh2730</a>
+            LinkedIn — <a className="text-blue-400 hover:underline" href="https://linkedin.com/in/eddy-hu217/">linkedin.com/in/bh2730</a>
           </p>
         </div>
       </div>
