@@ -65,14 +65,14 @@ export default function Project() {
           <hr className="my-6 border-white/10" />
           
           <section id="sca">
-            <h2 className="text-xl font-semibold">Side-Channel Attack Proejct</h2>
+            <h2 className="text-xl font-semibold">Side-Channel Attack Project</h2>
             <p className="mt-1 text-slate-300">
-            A low-cost setup using an ADC and an instrumentation amplifier to measure minimal power changes 
+            Designed a low-cost setup using an ADC and an instrumentation amplifier to measure minimal power changes 
             on an STM32 while it runs AES encryption.
             We analyze the traces in Python to visualize leakage and demonstrate simple key-recovery.
             </p>
             <div className="mt-2 flex flex-wrap gap-2 text-xs">
-              {["ESP32-C6","ADS7883","STM32","AES-128","CPA"].map(t => (
+              {["ESP32-C6","ADS7883","AES-128","CPA"].map(t => (
                 <span key={t} className="rounded-full border border-white/10 bg-white/10 px-2 py-0.5">{t}</span>
               ))}
             </div>
