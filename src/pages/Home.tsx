@@ -18,12 +18,12 @@ export default function Home() {
           <h2 className="text-4xl font-bold">We1c0me!</h2>
           <br />
           <p className="text-slate-300">Math & CS student at NYU Tandon.</p>
-          <p className="text-slate-300">C++ · React · TS · Python · Rust · MySQL…</p>
+          <p className="text-slate-300">C++ · Python · Typescript · Rust · React · MySQL</p>
           <br />
 
           <p className="text-slate-300">
             Open to collaborate on dev tooling, desktop (Tauri), browser extensions, and backend/systems.
-            Also seeking Summer 2026 SWE/Systems internships. Happy to contribute :)
+            Also seeking Summer 2026 SWE/Systems internships. Happy to chat :)
           </p>
           <br />
           <p className="text-xl font-bold">Contact</p>

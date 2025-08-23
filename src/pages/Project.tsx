@@ -20,7 +20,7 @@ export default function Project() {
               per-core usage, disk usage & I/O, and network info with private/public IPs.
             </p>
             <div className="mt-2 flex flex-wrap gap-2 text-xs">
-              {["Rust","Tauri","React","TS","sysinfo"].map(t => (
+              {["Rust","Tauri","React","Typescript","sysinfo"].map(t => (
                 <span key={t} className="rounded-full border border-white/10 bg-white/10 px-2 py-0.5">{t}</span>
               ))}
             </div>
@@ -60,6 +60,8 @@ export default function Project() {
               ))}
             </div>
             <a className="underline mt-3 text-sm" href="https://nyuauviolets.com/" target="_blank" rel="noreferrer">Overview</a>
+            <span className="mx-2">·</span>
+            <a className="underline mt-3 text-sm" href="https://github.com/NYU-Robosub/Motion_2024" target="_blank" rel="noreferrer">GitHub</a>
           </section>
 
           <hr className="my-6 border-white/10" />

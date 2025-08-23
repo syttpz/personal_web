@@ -15,7 +15,12 @@ export default function Nav() {
         <li><Link to="/" className="px-2 py-1 rounded-md hover:bg-white/5 hover:text-white transition-colors">Home</Link></li>
         <li><Link to="/project" className="px-2 py-1 rounded-md hover:bg-white/5 hover:text-white transition-colors">Project</Link></li>
         <li><Link to="/experience" className="px-2 py-1 rounded-md hover:bg-white/5 hover:text-white transition-colors">Experience</Link></li>
-        <li><Link to="/resume" className="px-2 py-1 rounded-md hover:bg-white/5 hover:text-white transition-colors">Resume</Link></li>
+        <li>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
+          className="px-2 py-1 rounded-md hover:bg-white/5 hover:text-white transition-colors">
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );
